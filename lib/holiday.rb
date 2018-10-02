@@ -96,7 +96,6 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_name = holiday_name_array.join(" ") 
       i=0 
       
-      
       supply_array.each do |supply| 
         supply_list_array = supply.to_s.split(" ")
         while i < supply_list_array.length 
@@ -126,6 +125,3 @@ def all_holidays_with_bbq(holiday_hash)
   end
     return bbq_holidays
 end
-
-
-
