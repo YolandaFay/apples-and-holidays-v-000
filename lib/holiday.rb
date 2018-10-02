@@ -104,7 +104,7 @@ def all_supplies_in_holidays(holiday_hash)
         end
       end
       
-      supply_list = s7
+      supply_list = supply_list_array.join(" ")
       
       i = 0   
         
