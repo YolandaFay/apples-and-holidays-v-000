@@ -92,7 +92,7 @@ def all_supplies_in_holidays(holiday_hash)
        holiday_name_array[i].capitalize!
         i+=1  
       end
-    season = season_array.join 
+    holiday_name = holiday_name_array.join 
     
     puts "#{season}:"
       
