@@ -84,8 +84,6 @@ def all_supplies_in_holidays(holiday_hash)
     season = season_array.join 
     i=0 
     
-    puts "#{season}:"
-    
     holiday_name_hash.each do |holiday_name, supply_array|
       
       holiday_name_array = holiday_name.to_s.split 
