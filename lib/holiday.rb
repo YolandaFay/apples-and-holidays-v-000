@@ -96,18 +96,17 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_name = holiday_name_array.join(" ") 
       i=0 
       
+      
       supply_array.each do |supply| 
         supply_list_array = supply.to_s.split(" ")
         while i < supply_list_array.length 
           supply_list_array[i].capitalize!
           i+=1 
         end
-      end
-      
       supply = supply_list_array.join(" ")
-      
       i = 0   
-        
+      
+    end  
       puts "  #{holiday_name}: #{supply}"
             
       end
