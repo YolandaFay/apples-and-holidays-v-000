@@ -104,6 +104,8 @@ def all_supplies_in_holidays(holiday_hash)
         end
       end
       
+      supply_list = s7
+      
       i = 0   
         
       puts "  #{holiday_name}: #{supply}"
