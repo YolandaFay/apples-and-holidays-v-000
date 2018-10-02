@@ -88,7 +88,7 @@ def all_supplies_in_holidays(holiday_hash)
     
     holiday_name_hash.each do |holiday_name, supply_array|
       
-      holiday_name_array = holiday_name.to_s.split 
+      holiday_name_array = holiday_name.to_s.split(_) 
       while i < holiday_name_array.length  
        holiday_name_array[i].capitalize!
         i+=1  
