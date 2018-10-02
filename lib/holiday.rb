@@ -98,8 +98,6 @@ def all_supplies_in_holidays(holiday_hash)
     
     puts "#{holiday_name}:"
       
-      
-      
       supply_array.each do |supply|
         
         puts "#{supply.capitalize!}:"
