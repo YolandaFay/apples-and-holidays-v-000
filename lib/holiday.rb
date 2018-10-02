@@ -95,8 +95,6 @@ def all_supplies_in_holidays(holiday_hash)
       end
       holiday_name = holiday_name_array.join(" ") 
       i=0 
-      
-      #puts "#{holiday_name}:"
           
       while i < supply_array.length 
         supply_array[i].capitalize!
@@ -105,8 +103,6 @@ def all_supplies_in_holidays(holiday_hash)
       
       supply_list = supply_array.join(", ")
       i = 0   
-      
-      #puts "#{supply_list}"
         
       puts "  #{holiday_name}: #{supply_list}"
             
