@@ -104,6 +104,7 @@ def all_supplies_in_holidays(holiday_hash)
         
     puts "#{season}:
             #{holiday_name}: #{supply_list}"
+            
       end
   end
 
