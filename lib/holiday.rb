@@ -89,7 +89,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       holiday_name_array = holiday_name.to_s.split 
       while i < season_array.length 
-       season_array[i].capitalize!
+       holiday_name_array[i].capitalize!
         i+=1  
       end
     season = season_array.join 
