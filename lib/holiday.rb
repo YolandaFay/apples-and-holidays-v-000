@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
  
   holiday_hash.each do |season, holiday_name_hash|
     season_array = season.to_s.split 
-      while i < season_array.length 
+      while i < season_array.length - 1 
        season_array[i].capitalize!
         i+=1  
       end
@@ -87,21 +87,20 @@ def all_supplies_in_holidays(holiday_hash)
     holiday_name_hash.each do |holiday_name, supply_array|
       
       holiday_name_array = holiday_name.to_s.split 
-      while i < holiday_name_array.length 
+      while i < holiday_name_array.length -1  
        holiday_name_array[i].capitalize!
         i+=1  
       end
-    holiday_name = holiday_name_array.join 
-    i=0 
+      holiday_name = holiday_name_array.join 
+      i=0 
     
-    supply_array.each do |supply|
+      while i < supply_array.length - 1
       
-    end 
-        
+      end
         
         
     puts "#{season}:
-                #{holiday_name}: #{supply.capitalize!}:"
+            #{holiday_name}: #{supply_list}"
       end
   end
 
