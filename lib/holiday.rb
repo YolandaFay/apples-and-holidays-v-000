@@ -109,10 +109,8 @@ def all_supplies_in_holidays(holiday_hash)
       
       puts "  #{holiday_name}: #{supply_array.join(", ")}"
           
-      end
+    end
   end
-
-
 end # END END 
 
 def all_holidays_with_bbq(holiday_hash)
